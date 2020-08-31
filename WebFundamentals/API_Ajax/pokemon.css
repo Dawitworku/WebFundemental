@@ -1,0 +1,63 @@
+* {
+    /* outline: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    width: 865px;
+    margin: 10px 10px;
+    background-color: lightgrey;
+    margin: 0px auto;
+}
+#container h1:first-child {
+    color: red;
+    text-align: center;
+}
+#sprites {
+    display: inline-block;
+    width: 570px;
+    margin: 15px auto; 
+    position: relative; 
+    left: 35px;
+}
+#pokedex {
+    display: inline-block;
+    vertical-align: top;
+    position: fixed; 
+    width: 255px;
+    height: 420px;
+    margin-top: 40px;
+}
+#entry {
+    width: 220px;
+    height: 390px;
+    border: solid 8px red;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+#entry img {
+    margin-left: 20px;
+}
+h2 {
+    text-align: center;
+    text-transform:capitalize;
+    margin: 15px 8px;
+}
+h4 {
+    text-transform: capitalize;
+    margin: 10px 8px;
+    text-align: left;
+}
+p {
+    margin: 13px 10px;
+}
+ul {
+    list-style: square outside none;
+}
+li {
+    margin-left: 5px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#wrapper {
+    width: 970px;
+    height: 805px;
+    /*background-color: silver;*/
+    padding: 0px 87px;
+    margin: 0px auto;
+}
+#globe {
+    width: 75px;
+    height: 75px;
+    padding-left: 5px;
+}
+#header {
+    display: inline;
+    position: relative;
+    left: 9px;
+    top: -25px;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #474747;
+}
+#wrapper h2 {
+    height: 55px;
+    /*background-color: #457ba6;*/
+    background-image: linear-gradient(#457ba6, #618fb3, #457ba6);
+    color: white;
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 28px;
+    box-sizing: border-box;
+    padding: 10px 23px;
+}
+#background-wrapper {
+    background-image: linear-gradient(#f5f5f5, #ffffff, transparent);
+    height: 685px;
+}
+#navigation{
+    height: 533px;
+    width: 205px;
+    display: inline-block;
+    box-sizing: border-box;
+    /*border: 2px solid black;*/
+    padding-left: 10px;
+}
+#navigation span {
+    color: #dc4231;
+}
+#wrapper .blue {
+    color: #22649e;
+}
+#navigation h5 {
+    padding:0px 0px 10px 0px;
+    margin-top: 24px;
+    font-size: 15px;
+}
+#navigation h6 {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+#navigation .button{
+    width: 190px;
+    height: 37px;
+    border-radius: 5px;
+    margin: 0px 0px 20px 0px;
+    background-image: linear-gradient( #ebae57, #ef7f30);
+    color: white;
+    font-size: 15px;
+    border-style: inset;
+    box-shadow: 0px 0px grey;
+    border-left: 0px;
+    border-top: 0px;
+}
+#navigation #button-id {
+    background-image: linear-gradient(-140deg, #6599c2, #2c6ba0);
+    color: white;
+    margin-bottom: 2px;
+    border-style: inset;
+}
+#ad-wrapper {
+    border-top: 2px solid #c1c1c1;
+    padding-top: 25px;
+}
+#ad-background {
+    background-image: url(images/ad_background.png);
+    height: 300px;
+    color: #f7f8f9;
+    padding: 25px 5px 0px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 19px;
+}
+#ad-background img {
+    height: 130px;
+    width: 90px;
+}
+#ad-background button {
+    width: 165px;
+    height: 33px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(#85e6f6, #54cadf);
+    margin-top: 10px;
+    font-size: 16px;
+}
+#main-content {
+    /* background-color: lightblue; */
+    height: 536px;
+    width: 720px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+}
+#main-content img {
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+#main-content h6 {
+    color: #306fa3;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+}
+#contacts-side {
+    width: 210px;
+    height: 55px;
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin: 0px 0px 0px 435px;
+}
+#contacts-side img {
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+}
+#contacts-side h7 {
+    font-size: 10px;
+    vertical-align: top;
+    color: #5c5c5c;
+}
+#contacts-side h3 {
+    margin: -35px 0px 0px 60px;
+    font-size: 23px;
+    color: #06c1dd;
+}
+#position {
+    margin: 0px 0px 0px 68px;
+}
+#main-content .main-content-headers {
+    color: #4d84b2;
+    font-size: 18px;
+}
+#main-content #header-border {
+    border-top: 1.5px solid #bfbfbf;
+    padding-top: 6px;
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+#main-content  .lists {
+    font-size: 14px;
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 28px;
+    padding: 3px 0px;
+    padding-right: 45px;
+}
+#main-content span {
+    color: #19a1b5;
+}
+#main-content #client-ser-diagram {
+    width: 270px;
+    height: 104px;
+    margin-left: 190px;
+    margin-bottom: 12px;
+}
+#main-content .list-number {
+    list-style-position: outside;
+    list-style-type: decimal;
+}
+#footer {
+    width: 690px;
+    height: 105px;
+    border-top: 4px solid #2185e0;
+    border-left: 4px solid #2185e0;
+    border-right: 4px solid #2185e0;
+    margin-left: 232px;
+    padding: 15px 0px 0px 20px;
+    margin-top: -16px; 
+}
+#footer img {
+    width: 100px;
+    height: 100px;
+    margin-right: 22px;
+}
+#footer h3 {
+    color: #23659f;
+    font-size: 21px;
+    display: inline-block;
+    vertical-align: top;
+}
+#footer p {
+    display: inline-block;
+    margin-left: 0px 0px 0px 10px;
+    font-size: 14px;
+    position: relative;
+    left: 130px; 
+    top: -75px;
+    padding:  0px 150px 7px 0px;
+}
+#footer span {
+    color: #19a1b5;
+}

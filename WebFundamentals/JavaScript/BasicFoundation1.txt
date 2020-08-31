@@ -1,0 +1,205 @@
+1) 
+function getNumbers() {
+  var arr = [];
+
+  for(var i = 1; i <= 255; i++) {
+    arr.push(i);
+  }
+  return arr;
+}
+x = getNumbers();
+console.log(x);
+
+2)
+function getEven() {
+
+  var sum = 0;
+  for (var i = 2; i <= 1000; i+=2) {
+      sum += i;
+  }
+  return sum;
+}
+var x = getEven();
+console.log(x);
+
+3)
+function sumOdd() {
+
+  var sum = 0;
+  for (var i = 1; i <= 5000; i += 2) {
+    sum += i;
+  }
+  return sum;
+}
+var x = sumOdd();
+console.log(x);
+
+4)
+function sumArray(arr) {
+
+  var sum = 0;
+  for (var i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+return sum;
+}
+var x = sumArray([1,2,5]);
+var y = sumArray([-5, 2, 5, 12]);
+console.log(x);
+console.log(y);
+
+5)
+function findMax(arr) {
+  
+  var max = arr[0];
+  for(i = 0; i < arr.length; i++) {
+    if(arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return max;
+}
+
+var x = findMax([-3, 3, 5, 7]);
+console.log(x);
+
+6)
+function findAvg(arr) {
+
+  var sum = 0;
+  for (i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum / arr.length;
+}
+var x = findAvg([1, 3, 5, 7, 20]);
+console.log(x);
+
+7)
+
+function ArrayOdd() {
+  var arr = [];
+  for (i = 1; i <= 50; i += 2) {
+
+    arr.push(i);
+  }
+  return arr;
+}
+var x = ArrayOdd();
+console.log(x);
+
+8)
+function GreaterThanY(arr, y) {
+  
+  var count = 0;
+  for(i = 0; i < arr.length; i++) {
+    if(arr[i] > y) {
+     count++;
+    }
+  }
+  return count;
+}
+
+var x =GreaterThanY([1,3,5,7], 3);
+console.log(x);
+
+9)
+function squares(arr) {
+
+  for (i = 0; i < arr.length; i++) {
+    arr[i] = (arr[i] * arr[i]);
+  }
+  return arr;
+  
+}
+
+var x = squares([1, 5, 10, -2]);
+console.log(x);
+
+10)
+function negatives(arr) {
+
+  for(i = 0; i < arr.length; i++){
+    if(arr[i] < 0){
+      arr[i] = 0;
+    }
+  }
+  return arr;
+}
+
+var x = negatives([1, 5, 10, -2]);
+console.log(x);
+
+11)
+
+function maxMinAvg(arr) {
+
+var newArr = [];
+var max = arr[0];
+var min = arr[0];
+var sum = 0;
+
+  for( i = 0; i < arr.length; i++) {
+    if(arr[i] > max) {
+      max = arr[i];
+    }
+    else if(arr[i] < min) {
+      min = arr[i];
+    }
+    sum += arr[i];
+  }
+  newArr.push(max);
+  newArr.push(min);
+  newArr.push(sum/arr.length);
+  return newArr;
+}
+
+var x = maxMinAvg([1, 5, 10, -2]);
+console.log(x);
+
+12)
+function swapValues(arr) {
+
+  var temp = arr[0];
+
+  for(i = 0; i < arr.length; i++) {
+
+    arr[0] = arr[arr.length - 1];
+    arr[arr.length - 1] = temp;
+    
+    return arr;
+  }
+}
+x = swapValues([1, 5, 10, -2]);
+console.log(x);
+
+13)
+function toString(arr) {
+
+  for (i = 0; i < arr.length; i++) {
+    if (arr[i] < 0) {
+      arr[i] = "Dojo";
+    }
+  }
+  return arr;
+}
+var x = toString([-1, -3, 2]);
+console.log(x);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

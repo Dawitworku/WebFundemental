@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    background-image: url(img/IMG_6722-1.jpeg);
+    height: 700px;
+    padding-top: 50px;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    width: 450px;
+    height: 130px;
+}

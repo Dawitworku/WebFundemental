@@ -1,0 +1,256 @@
+1) Biggie Size 
+
+function biggieSize(arr){
+
+  for(var i = 0; i < arr.length; i++){
+    if(arr[i] > 0) {
+      arr[i] = "big";
+    }
+  }
+  return arr;
+}
+
+var x = biggieSize([-1, 3, 5, -5]);
+console.log(x);
+
+2) Print Low, Return High
+
+function printLReturnH(arr) {
+
+  var highest = arr[0];
+  var lowest = arr[0];
+  for(var i = 0; i < arr.length;i++) {
+    if(arr[i] < lowest) {
+      lowest = arr[i];
+    }
+    else if(arr[i] > highest) {
+      highest = arr[i];
+    }
+  }
+  console.log(lowest);
+  return highest;
+}
+var x = printLReturnH([50, -1, 20, 12, -4]);
+console.log(x);
+
+3)Print One, Return Another
+
+function printOneReturnAno(arr) {
+
+  for (i = 1; i < arr.length; i++) {
+    console.log(arr[i]);
+    if (arr[i] % 2 !== 0) {
+      return arr[i];
+    }
+
+  }
+
+}
+
+var x = printOneReturnAno([0, 2, 8, 4, 3]);
+console.log(x);
+
+4)Double Vision
+
+function double(arr) {
+
+  var newArr = [];
+  for (var i = 0; i < arr.length; i++) {
+    result = arr[i] * 2;
+    newArr.push(result);
+  }
+  return newArr;
+}
+var x = double([1, 2, 3]);
+console.log(x);
+
+5) Count Positives
+
+function countPositives(arr) {
+
+  var count = 0;
+
+  for (i = 0; i < arr.length; i++) {
+    if(arr[i] > 0) {
+      count++;
+    }
+    arr[arr.length - 1] = count;
+
+  }
+  return arr;
+}
+
+var x = countPositives([-1,1,1,1]);
+console.log(x);
+
+6) Evens and Odds 
+
+function evenAndOdds(arr) {
+  var even = 0
+  var odd = 0;
+
+  for (i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 == 0) {
+      even++;
+      if (even == 3) {
+        console.log("Even more so!");
+        odd = 0;
+      }
+    }
+    else {
+      odd++;
+      if(odd == 3) {
+        console.log("That's odd!");
+        even = 0;
+      }
+    }
+  }
+}
+var x = evenAndOdds([1, 1, 1, 2, 2, 2, 1, 1, 1]);
+
+7) Increment the Seconds
+
+function incrementTheSeconds(arr) {
+
+  for (i = 0; i < arr.length; i++) {
+    for (i = 1; i < arr.length; i += 2) {
+      arr[i] = arr[i] + 1;
+       console.log(arr[i]);
+    }
+  }
+  return arr;
+}
+
+ console.log(incrementTheSeconds([1,2,3,4,5]));
+
+8)Previous Lengths
+
+function previousLengths(arr){
+    for (var i = arr.length-1; i > 0; i--){
+        arr[i] = arr[i-1].length;
+    }
+    return arr;
+}
+
+ console.log(previousLengths(["hello", "dojo", "awesome"]));
+
+9)Add Seven 
+
+function addSeven(arr) {
+
+  var newArr = [];
+  for(var i = 0; i < arr.length; i++) {
+    arr[i] = arr[i] + 7;
+     newArr.push(arr[i]);
+  }
+  return newArr;
+}
+var x = addSeven([1,2,3]);
+console.log(x);
+
+10)Reverse Array 
+
+function reverse(arr){
+    for (var i = 0; i < arr.length/2; i++){
+
+        var maxIndex = arr.length-1;
+
+        var temp = arr[i];
+        arr[i] = arr[maxIndex - i];
+        arr[maxIndex - i] = temp;
+    }
+    return arr;
+}
+var x = reverse([3,1,6,4,2,5]);
+console.log(x);
+
+11)Outlook: Negative 
+
+function numToNegative(arr) {
+  var newArr = [];
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] > 0) {
+      arr[i] = arr[i] * -1;
+    }
+    newArr.push(arr[i]);
+  }
+  return newArr;
+}
+
+var x = numToNegative([1, -3, 5]);
+console.log(x);
+
+12)Always Hungry
+
+function alwaysHungry(arr) {
+
+  for (var i = 0; i < arr.length; i++) {
+
+    if (arr[i] === "food") {
+      console.log("yummy");
+    }
+    else {
+      console.log("I'm hungry");
+    }
+  }
+}
+alwaysHungry([1, 2, 4, "food", "drink"]);
+
+13) Swap Toward the Center  
+
+function swapTowardCenter(arr){
+    for (var i = 0; i < arr.length/2; i+=2){
+        var temp = arr[i];
+        
+        arr[i] = arr[arr.length-1-i];
+        arr[arr.length-1-i] = temp;
+    }
+    return arr;
+}
+
+console.log(swapTowardCenter([1, 2, 3, 4, 5, 6]));
+
+14)Scale the Array
+
+function scaleTheArray(arr, num) {
+
+  for (var i = 0; i < arr.length; i++) {
+    arr[i] = arr[i] * num;
+  }
+  return arr;
+}
+var x = scaleTheArray([1, 2, 3], 3);
+console.log(x);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

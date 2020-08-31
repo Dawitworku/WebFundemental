@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    margin: 0px auto;
+    width: 900px;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+
+#wrapper img {
+    border: 2px solid black;
+    margin: 2px;
+}
+#button {
+    display: block;
+    color: tomato;
+    background-color: wheat;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
