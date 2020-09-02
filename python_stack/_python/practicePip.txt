@@ -1,0 +1,22 @@
+pip install Django==2.2 - ->installed Django in my virtual environment.
+
+pip list:- ->I used pip instead of pip3 which are the same anyways since I am on the virtual environment and listed all the packages I have including Django and sql packages.
+
+deactivate (This will deactivate your virtual environment)
+
+pip3 list- ->pip list didn't work since I am running an alias to always spin up python3 instead of 3. I made a change to the zshrc file with the alias that's why. However, when I  run pip3 list, I can see files that are loaded on my global environment and it doesn't include the Django file I just installed.
+
+
+source myEnvironments/py3Env/bin/activate (Adjust the path as needed to re-activate the virtualenv; for windows call myEnvironments/py3Env/Scripts/activate)
+
+pip install Django==1.11.9 (We know you already ran this one. What information do you see returned in terminal after this command?):-> It says I have already loaded Django a nd requirement is already satisfied.
+
+pip freeze (What's the difference between freeze and list?)
+
+First cd into your Desktop directory (cd ~/Desktop), then run this command: pip freeze > requirements.txt. What do you see when you ls? What's inside this file?:-> It pasted the Django, putz and sqlparse files into the txt file.
+
+pip uninstall Django
+
+pip show Django -> Was able to show me the version, home-page url and summary of the Django framework we have installed.
+
+pip search Flask This one might take a moment to execute.-> listed files that are specific to the flak framework.
