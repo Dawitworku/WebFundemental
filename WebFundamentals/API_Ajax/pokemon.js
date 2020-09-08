@@ -13,6 +13,7 @@ $('#container').prepend("<h1>Pokemon's</h1>");
 //name, image, types, height, weight
 
 $(document).on("click", "img", function() {
+    $('#entry').html('')   // This will wipe the images whenever i click in another one
 
     var id = $(this).attr("id");    // using the ID attribute value to select a pokemon from the API  
 
